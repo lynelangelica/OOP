@@ -10,10 +10,10 @@ public class Book {
     }
 
     public void displayBook(){
-        System.out.println("Title: " + title);
-        System.out.println("ISBN: " + ISBN);
-        System.out.println("Author: " + author.name);
-        System.out.println("Biography: " + author.biography);
+        System.out.println("Title: "+title);
+        System.out.println("ISBN: "+ISBN);
+        System.out.println("Author: "+author.name);
+        System.out.println("Biography: "+author.biography);
         System.out.println("------------------------");   
     }
 }

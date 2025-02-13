@@ -7,7 +7,7 @@ public class Main {
         Book book1 = new Book("Java Programming", "123456789", author1);
         Book book2 = new Book("Clean Code", "987654321", author2);
 
-        Library library = new Library();
+        Library library = new Library(); //
 
         library.addBook(book1);
         library.addBook(book2);

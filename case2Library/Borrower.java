@@ -18,7 +18,7 @@ public class Borrower {
     }
 
     public void displayBorrowedBooks(){
-        System.out.println(name + "'s Borrowed Books:");
+        System.out.println(name+"'s Borrowed Books:");
         for(Book book : borrowedBooks){
             book.displayBook();
         }
